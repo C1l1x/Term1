@@ -8,6 +8,7 @@ int main()
 {
     int n = 0, i = 1, a, b, c;
     cout << "Insert n:"; cin >> n;
+    // Geting user input
 
     while (n != i) {
         a = i;
