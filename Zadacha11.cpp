@@ -24,7 +24,7 @@ int main() {
 	int brk;
 	system("chcp 1251");
 	printf("�������� ����������� a b c:");
-	scanf_s("%f %f %f", &a, &b, &c);
+	cout << "%f %f %f" << a << b << c << endl; 
 	brk = kvUrav(a, b, c, &x1, &x2);
 	switch (brk) {
 	case 0: printf("���� �.�.\n"); break;
